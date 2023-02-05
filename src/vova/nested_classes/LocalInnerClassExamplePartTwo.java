@@ -1,5 +1,7 @@
 package vova.nested_classes;
 
+import static java.lang.System.*;
+
 public class LocalInnerClassExamplePartTwo {
     public static void main(String[] args) {
         class Addition implements IMath {
@@ -9,7 +11,7 @@ public class LocalInnerClassExamplePartTwo {
             }
         }
         Addition addition = new Addition();
-        System.out.println(addition.doOperation(3, 4));
+        out.println(addition.doOperation(3, 4));
     }
 }
 
