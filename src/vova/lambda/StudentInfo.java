@@ -1,8 +1,6 @@
 package vova.lambda;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.stream.Collectors;
 
 import static java.lang.System.*;
 
