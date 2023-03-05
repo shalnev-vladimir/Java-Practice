@@ -25,4 +25,20 @@ public class Students {
                 ", averageGrade=" + averageGrade +
                 '}';
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getCourse() {
+        return course;
+    }
+
+    public double getAverageGrade() {
+        return averageGrade;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
