@@ -38,6 +38,14 @@ public class Students {
         return averageGrade;
     }
 
+    public char getSex() {
+        return sex;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
