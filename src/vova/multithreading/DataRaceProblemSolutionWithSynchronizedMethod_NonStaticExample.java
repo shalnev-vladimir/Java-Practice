@@ -5,6 +5,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 import static java.lang.System.*;
 
 /**
+ * Data Race - это проблема, когда 2 и более потоков обращаются к одной переменной
+ * и, как минимум, один из потоков её изменяет.
+ *
  * To avoid this   (2 4 2 3 6 5 8 7 9 )   result of execution and
  * to get this     (1 2 3 4 5 6 7 8 9 )   one
  * we should use SYNCHRONIZED key word in implement() method
